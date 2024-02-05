@@ -1,0 +1,98 @@
+body{
+	background-image: url('../images/slotbg.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: Helvetica, sans-serif;
+}
+
+.title{
+	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.854);
+}
+
+.grid{
+	display: grid;
+	grid-row-gap: 20px;
+	grid-column-gap: 20px;
+	grid-template-columns: 500px;
+	/* align-content: space-around; */
+	padding: 40px;
+	width:90%;
+	/* height: 80vh; */
+	border: 5px solid white;
+	border-radius: 25px;
+	margin: 60px auto;
+
+ }
+
+
+.grid > div {
+	  background-color: rgba(255, 255, 255, 0.8);
+	  text-align: center;
+	  padding: 20px;
+	  border: 5px solid black;
+	  border-radius: 20px;
+}
+
+
+img{
+	width: 120px;
+}
+
+h1, h2{
+	text-align: center;
+	margin: 10px;
+	color: white;
+}
+
+
+.item1 {
+	
+}
+
+.item2 {
+	
+}
+
+.item2 {
+	
+}
+
+.item3 {
+	
+}
+
+.item4 {
+	
+}
+
+.item5 {
+	
+}
+
+.item6 {
+
+		/* One way to move items */
+	/* grid-column-start: 2;
+	grid-column-end: 3;
+
+	grid-row-start: 1;
+	grid-row-end: 2; */
+
+	/* Another way, the shorthand */
+
+	/* grid-column: 2 / 3;
+	grid-row: 1 / 2; */
+	
+}
+
+.item7 {
+	
+}
+
+.item8 {
+	
+}
+
+ 
+
